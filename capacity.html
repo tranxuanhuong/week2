@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let point1=parseInt(prompt("nhập điểm kt bt"));
+    let point2=parseInt(prompt("nhập điểm kt giữa kỳ"));
+    let point3=parseInt(prompt("nhập điểm kiểm tra cuối kỳ"));
+    let avr=(point1+point2*2+point3*3)/6;
+    if (avr>=8.5){
+        document.write('Loại giỏi');
+    }else if (avr>=7.0 &&avr<8.5){
+        document.write('Loại khá');
+    }else if (avr>=5.0 && avr<7.0){
+        document.write('Loại trung bình');
+    }else {
+        document.write('Loại yếu');
+    }
+
+</script>
+</body>
+</html>

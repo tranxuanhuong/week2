@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Từ 0 đến 200.000 => 3%-->
+<!--Từ 200.000 đến 500.000 => 5%-->
+<!--Trên 500.000 => 10%-->
+<script>
+    let sales=parseFloat(prompt("nhập doanh số"));
+    let comm=parseFloat("phần trăm hoa hồng");
+
+    if (sales>=0 && sales<200000){
+
+        comm=0.03;
+        alert('hoa hồng ='+comm);
+    }if (sales>=200000 && sales< 500000){
+
+       comm=0.05;
+        alert('hoa hồng ='+comm)
+    }else {
+
+        comm=0.1;
+        alert('hoa hồng ='+comm);
+    }
+
+</script>
+
+</body>
+</html>
